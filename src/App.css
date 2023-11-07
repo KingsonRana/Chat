@@ -89,7 +89,7 @@
 
 .senderMessage {
   display: flex;
-  padding-left: 10px;
+  padding: 6px;
   flex-direction: column;
   /* justify-content: center; */
   /* align-items: center; */
@@ -112,7 +112,7 @@
   border-radius: 50%;
 }
 .senderDp {
-  width: 6%;
+  width: 4%;
   height: 5%;
   display: inline;
   text-align: end;
@@ -153,9 +153,11 @@
 
 .sendMessage p{
  display: contents;
+ font-size: 15px;
 }
 .senderMessage p{
  display: contents;
+ font-size: 15px;
 }
 .send{
   cursor: pointer;
